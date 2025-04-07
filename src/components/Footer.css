@@ -1,0 +1,20 @@
+.footer {
+    width: 1920px;
+    height: 519px;
+    background-color: #2D2B2F;
+    color: #E5E5E5;
+}
+
+.contacts {
+    width: 346px;
+}
+
+.contacts__list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.contacts__item {
+    display: flex;
+    justify-content: space-between;
+}

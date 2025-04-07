@@ -1,0 +1,92 @@
+.content-container__feedback {
+  display: flex;
+  height: 748px;
+  align-items: center;
+}
+
+.feedback-block {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  height: 500px;
+}
+
+.feedback-block__title {
+  font-size: 36px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+.reviews {
+  display: flex;
+}
+
+.review {
+  display: flex;
+  width: 640px;
+}
+  
+.review__image {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+
+.review__image_female {
+  background-image: url("/public/img/review_user_woman.png");
+  background-size: 300px;
+  background-position: 50%;
+}
+
+.review__image_male {
+  background-image: url("/public/img/review_user_man.png");
+  background-size: 500px;
+  background-position: 35%;
+}
+  
+.review__text {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  margin-left: 35px;
+}
+
+.review__author {
+  font-size: 24px;
+  font-weight: 500;
+  margin: 6 0;
+}
+
+.review_text {
+  font-size: 18px;
+  font-weight: 300;
+  font-style: italic;
+  position: relative;
+}
+
+.review_text::before {
+  content:"“";
+  font-family: "Roboto";
+  font-size: 36px;
+  font-weight: 500;
+  color: #928F94;
+  position: absolute;
+  left: -15px;
+  top: -15px;
+}
+
+.review_text::after {
+  content:"”";
+  font-family: "Roboto";
+  font-size: 36px;
+  font-weight: 500;
+  color: #928F94;
+  position: absolute;
+  bottom: -30px;
+}
+
+.feedback__scroll {
+  display: flex;
+  justify-content: center;
+}
