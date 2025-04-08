@@ -54,9 +54,12 @@
 
   font-family: "Roboto";
   font-weight: 400;
+  text-transform: uppercase;
 
   padding-left: 21px;
   box-sizing: border-box;
+
+  appearance: none;
 }
 
 .ticket-search__switch-cities-button {

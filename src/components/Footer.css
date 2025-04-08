@@ -5,8 +5,26 @@
     color: #E5E5E5;
 }
 
+.contacts-block {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    width: 1249px;
+    height: 423px;
+}
+
 .contacts {
-    width: 346px;
+    width: 412px;
+    height: 322px;
+}
+
+.footer__title {
+    font-size: 30px;
+    font-weight: 500;
+
+    display: inline-block;
+    height: 61px;
 }
 
 .contacts__list {
@@ -15,6 +33,83 @@
 }
 
 .contacts__item {
+
+    margin-bottom: 30px;
+
     display: flex;
+}
+
+.contacts__icon {
+    width: 30px;
+    height: 30px;
+}
+
+.contacts__title {
+    margin-left: 36px;
+    display: block;
+    font-size: 24px;
+    font-weight: 400;
+    color: #E5E5E5;
+}
+
+.subscription-block {
+    height: 322px;
+
+
+}
+
+.email-subscription {
+    display: flex;
+    flex-direction: column;
+    width: 649px;
+}
+
+.email-subscription__slogan {
+    font-weight: 400;
+    font-size: 24px;
+    height: 44px;
+}
+
+.email-subscription__input {
+    width: 447px;
+    height: 60px;   
+    padding-left: 21px;
+    border-radius: 3px;
+
+    font-size: 24px;
+    font-weight: 400;
+    color: #E5E5E5;
+}
+
+.email-subscription__button {
+    width: 169px;
+    height: 60px;
+    border-radius: 3px;
+
+    background-color: transparent;
+    border: 1px solid #FFFFFF;
+
+    text-transform: uppercase;
+    font-size: 24px;
+    font-weight: 400;
+    color: #E5E5E5
+}
+
+.social-media {
+    margin-top: 44px;
+}
+
+.bottom-logo-block {
+    height: 96px;
+    border-top: 1px solid #E5E5E5;
+
+    display: flex;
+    align-items: center;
     justify-content: space-between;
+}
+
+.foundation-info {
+    font-size: 24px;
+    font-weight: 300;
+    color: #E5E5E5;
 }
