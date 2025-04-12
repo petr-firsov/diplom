@@ -2,25 +2,25 @@ import './feedback.css'
 
 export default function Feedback() {
     return (
-        <section className="content-container content-container__feedback">
+        <section className="content-container content-container__feedback" id="feedback">
 
-            <div className="feedback-block">
+            <div className="feedback">
 
-                <h2 className="feedback-block__title">Отзывы</h2>
+                <h2 className="feedback__title">Отзывы</h2>
 
-                <div className="reviews">
+                <div className="feedback__content">
                     <div className="review">
                         <div className="review__image review__image_female" />
-                        <div className="review__text">
+                        <div className="review__content">
                             <h3 className="review__author">Екатерина Вальнова</h3>
-                            <p className="review_text">Доброжелательные подсказки <br/> на всех этапах помогут правильно заполнить <br/> поля и без затруднений купить авиа или ж/д <br/> билет, даже если вы заказываете онлайн билет <br/> впервые.</p>
+                            <p className="review__text">Доброжелательные подсказки <br/> на всех этапах помогут правильно заполнить <br/> поля и без затруднений купить авиа или ж/д <br/> билет, даже если вы заказываете онлайн билет <br/> впервые.</p>
                         </div>
                     </div>
                     <div className="review">
                         <div className="review__image review__image_male" />
-                        <div className="review__text">
+                        <div className="review__content">
                             <h3 className="review__author">Евгений Стрыкало</h3>
-                            <p className="review_text">СМС-сопровождение до посадки <br/> Сразу после оплаты ж/д билетов <br/> и за 3 часа до отправления мы пришлем вам <br/> СМС-напоминание о поездке.</p>
+                            <p className="review__text">СМС-сопровождение до посадки <br/> Сразу после оплаты ж/д билетов <br/> и за 3 часа до отправления мы пришлем вам <br/> СМС-напоминание о поездке.</p>
                         </div>
                     </div>
                 </div>

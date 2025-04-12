@@ -1,23 +1,31 @@
+.content-container_about-us {
+  display: flex;
+  align-items: center;
+  height: 564px;
+  background-color: white;
+}
+  
 .about-us {
-    display: flex;
-    align-items: center;
-    height: 564px;
-    background-color: white;
-  }
-  
-  .about-us__title {
-    font-size: 36px;
-    font-weight: 500;
-  }
-  
-  .about-us__text {
-    font-size: 24px;
-    font-weight: 400;
-  
-    border-left: 9px solid #FFA800;
-    padding-left: 19px;
-  }
-  
-  .about-us__text_highlighted {
-    font-weight: 700;
-  }
+  height: 305px;
+}
+
+.about-us__title {
+  font-size: 36px;
+  font-weight: 500;
+  margin: 0;
+  margin-bottom: 33px;
+}
+
+.about-us__text {
+  border-left: 9px solid #FFA800;
+  padding-left: 19px;
+}
+
+.about-us__paragraph {
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.about-us__paragraph_bold {
+  font-weight: 700;
+}

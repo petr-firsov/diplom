@@ -1,5 +1,6 @@
 import './TicketSearch.css';
 import CitySearchField from './__city-search-field/CitySearchField';
+import DateSearchField from './__date-search-field/date-search-field';
 
 export default function TicketSearch() {
 
@@ -19,25 +20,27 @@ export default function TicketSearch() {
     return (
         <form className="ticket-search" onSubmit={handleSubmit}>
 
-            <div className="ticket-search__search-parameter">
+            <div className="ticket-search__segment">
                 <span className="ticket-search__title">Направление</span>
-                <div className="field-block">
+                <div className="ticket-search__search-parameter">
                     <CitySearchField name="where-from" placeholderText="Откуда" />
-                    <img src="/public/img/intercity_arrow.png" className="ticket-search__switch-cities-button" />
+                    <img src="/img/intercity_arrow.png" className="ticket-search__switch-cities-button" />
                     <CitySearchField name="where-to" placeholderText="Куда" />
                 </div>
             </div>
 
-            <div className="ticket-search__search-parameter">
+            <div className="ticket-search__segment">
                 <span className="ticket-search__title">Дата</span>
-                <div className="field-block">
-                    <input type="date" name="arrival-date" className="ticket-search__date-search-field" placeholder="ДД/MM/ГГ" required></input>
-                    <input type="date" name="departure-date" className="ticket-search__date-search-field" placeholder="ДД/ММ/ГГ" required></input>
+                <div className="ticket-search__search-parameter">
+                    <DateSearchField />
+                    <DateSearchField />
+                    {/* <input type="date" name="arrival-date" className="ticket-search__date-search-field" placeholder="ДД/MM/ГГ" required></input>
+                    <input type="date" name="departure-date" className="ticket-search__date-search-field" placeholder="ДД/ММ/ГГ" required></input> */}
                 </div>
             </div>
 
-            <div className="field-block">
-                <button type="submit" className="ticket-search__submit-button">НАЙТИ БИЛЕТЫ</button>
+            <div className="ticket-search__segment ticket-search__segment_button">
+                <button type="submit" className="ticket-search__submit-button ticket-search__interactive-button">НАЙТИ БИЛЕТЫ</button>
             </div>
         </form>
     )
