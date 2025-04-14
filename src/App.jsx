@@ -1,20 +1,14 @@
 import './App.css'
-import { Routes } from 'react-router'
-import { Route } from 'react-router'
-import Header from './components/Header'
-import Footer from './components/Footer'
+import App from './components/StaticPage';
 import Homepage from './components/Homepage/Homepage'
+import { createBrowserRouter } from 'react-router'
 
-function App() {
-  return (
-    <>
-      <Header />
-        <Routes>
-          <Route index element={<Homepage />} />
-        </Routes>
-      <Footer />
-    </>
-  )
-}
-
-export default App
+export const app = createBrowserRouter([
+  {
+    path: '/',
+    Component: App,
+    children: [
+      { index: true, Component: Homepage}
+    ]
+  }
+]);

@@ -1,6 +1,6 @@
 import './TicketSearch.css';
 import CitySearchField from './__city-search-field/CitySearchField';
-import DateSearchField from './__date-search-field/date-search-field';
+// import DateSearchField from './__date-search-field/date-search-field';
 
 export default function TicketSearch() {
 
@@ -32,10 +32,10 @@ export default function TicketSearch() {
             <div className="ticket-search__segment">
                 <span className="ticket-search__title">Дата</span>
                 <div className="ticket-search__search-parameter">
-                    <DateSearchField />
-                    <DateSearchField />
-                    {/* <input type="date" name="arrival-date" className="ticket-search__date-search-field" placeholder="ДД/MM/ГГ" required></input>
-                    <input type="date" name="departure-date" className="ticket-search__date-search-field" placeholder="ДД/ММ/ГГ" required></input> */}
+                    {/* <DateSearchField />
+                    <DateSearchField /> */}
+                    <input type="date" name="arrival-date" className="ticket-search__date-search-field" placeholder="ДД/MM/ГГ" required></input>
+                    <input type="date" name="departure-date" className="ticket-search__date-search-field" placeholder="ДД/ММ/ГГ" required></input>
                 </div>
             </div>
 

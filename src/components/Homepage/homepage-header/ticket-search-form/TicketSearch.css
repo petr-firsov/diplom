@@ -64,6 +64,12 @@
 
   appearance: none;
   box-shadow: 0px 4px 4px 0px #00000040;
+
+}
+
+.ticket-search__date-search-field:focus {
+  border: none;
+  outline: none;
 }
 
 .ticket-search__switch-cities-button {
@@ -72,6 +78,7 @@
   opacity: 0.6;
   cursor: pointer;
 }
+
 
 .ticket-search__segment_button {
   display: flex;
