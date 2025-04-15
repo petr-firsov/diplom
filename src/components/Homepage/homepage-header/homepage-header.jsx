@@ -4,7 +4,7 @@ import TicketSearch from './ticket-search-form/TicketSearch'
 export default function HomepageHeader() {
     return (
         <header className="homepage-header">
-            <img className="homepage-header__background-image" src="/public/img/background-train.png" />
+            <img className="homepage-header__background-image" src="/img/background-train.png" />
             <div className="content-container content-container_homepage-header">
                 <div className="homepage-header__content">
                     <div className="tagline">

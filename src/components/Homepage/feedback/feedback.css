@@ -36,13 +36,13 @@
 }
 
 .review__image_female {
-  background-image: url("/public/img/review_user_woman.png");
+  background-image: url("/img/review_user_woman.png");
   background-size: 300px;
   background-position: 50%;
 }
 
 .review__image_male {
-  background-image: url("/public/img/review_user_man.png");
+  background-image: url("/img/review_user_man.png");
   background-size: 500px;
   background-position: 40%;
 }
