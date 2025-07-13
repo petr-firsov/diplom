@@ -1,0 +1,19 @@
+.tagline {
+    width: 610px;
+    height: 404px;
+
+    display: flex;
+    flex-direction: column;
+
+    color: white;
+    font-size: 72px;
+}
+
+.tagline_first-line {
+    font-weight: 100;
+}
+
+.tagline_second-line {
+    font-weight: 700;
+}
+

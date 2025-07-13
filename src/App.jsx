@@ -1,14 +1,27 @@
 import './App.css'
-import App from './components/StaticPage';
-import Homepage from './components/Homepage/Homepage'
-import { createBrowserRouter } from 'react-router'
+import { createBrowserRouter, Router, RouterProvider } from 'react-router-dom';
+import Root from './components/Root';
+import Homepage from './components/Homepage/Homepage';
+import SearchResults from './components/SearchResults/SearchResults';
 
-export const app = createBrowserRouter([
+const app = createBrowserRouter([
   {
-    path: '/',
-    Component: App,
+    path: "/",
+    element: <Root />,
     children: [
-      { index: true, Component: Homepage}
+      {
+        index: true,
+        element: <Homepage />
+      },
+      {
+        element: <SearchResults />
+      }
     ]
   }
-]);
+])
+
+export default function App() {
+  return (
+    <RouterProvider router={app} />
+  )
+};

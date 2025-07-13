@@ -67,7 +67,7 @@
   position: relative;
 }
 
-.review_text::before {
+.review__text::before {
   content:"“";
   font-family: "Roboto";
   font-size: 36px;
@@ -78,7 +78,7 @@
   top: -15px;
 }
 
-.review_text::after {
+.review__text::after {
   content:"”";
   font-family: "Roboto";
   font-size: 36px;

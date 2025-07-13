@@ -1,0 +1,35 @@
+.navigation {
+    position: absolute;
+    width: 1920px;
+}
+
+.content-container_logo {
+    display: flex;
+    align-items: center;
+
+    height: 64px;
+    background-color: rgb(0, 0, 0, 0.6);
+}
+
+.logo {
+    font-weight: 900;
+    font-size: 36px;
+    color: #E5E5E5;
+}
+
+.content-container_menu {
+    height: 94px;
+
+    background-color: #292929;
+
+    display: flex;
+    align-items: center;
+}
+
+.menu__item {
+    font-size: 30px;
+    font-weight: 300;
+    margin-right: 40px;
+    color: white;
+    cursor: pointer;
+}

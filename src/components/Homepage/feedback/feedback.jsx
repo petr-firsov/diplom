@@ -5,9 +5,7 @@ export default function Feedback() {
         <section className="content-container content-container__feedback" id="feedback">
 
             <div className="feedback">
-
                 <h2 className="feedback__title">Отзывы</h2>
-
                 <div className="feedback__content">
                     <div className="review">
                         <div className="review__image review__image_female" />
@@ -24,7 +22,6 @@ export default function Feedback() {
                         </div>
                     </div>
                 </div>
-
                 <div className="feedback__scroll">
                     <svg width="140" height="19" viewBox="0 0 140 19" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <ellipse cx="9.66851" cy="9.5" rx="9.66851" ry="9.5" fill="#C4C4C4"/>
@@ -34,8 +31,8 @@ export default function Feedback() {
                             <ellipse cx="130.331" cy="9.5" rx="9.66851" ry="9.5" fill="#E5E5E5"/>
                     </svg>
                 </div>
-
             </div>
+
         </section>
     )
 }

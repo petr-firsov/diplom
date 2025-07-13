@@ -1,29 +1,29 @@
-.ticket-search {
+.ticket-search-form {
   width: 729px;
+  height: 574px;
   background-color: rgb(41, 41, 41, 0.8);
-  padding-top: 80px;
-  padding-bottom: 60px;
-  padding-left: 21px;
-  padding-right: 24px;
 
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
+
+  padding: 79px 24px 60px 24px;
+  box-sizing: border-box;
 }
 
-.ticket-search__segment {
+.ticket-search-form__segment {
   width: 684px;
 }
 
-.ticket-search__title {
+.ticket-search-form__title {
   font-size: 30px;
   font-weight: 300;
   color: white;
   padding: 0;
 }
 
-.ticket-search__search-parameter {
+.ticket-search-form__search-parameter {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -31,7 +31,7 @@
   margin-top: 7px;
 }
 
-.ticket-search__city-search-field {
+.ticket-search-form__city-search-field {
   width: 325px;
   height: 60px;
 
@@ -44,10 +44,9 @@
 
   padding-left: 21px;
   box-sizing: border-box;
-
 }
 
-.ticket-search__date-search-field {
+.ticket-search-form__date-search-field {
   width: 325px;
   height: 60px;
 
@@ -67,25 +66,24 @@
 
 }
 
-.ticket-search__date-search-field:focus {
+.ticket-search-form__date-search-field:focus {
   border: none;
   outline: none;
 }
 
-.ticket-search__switch-cities-button {
+.ticket-search-form__switch-cities-button {
   width: 24px;
   height: 24px;
   opacity: 0.6;
   cursor: pointer;
 }
 
-
-.ticket-search__segment_button {
+.ticket-search-form__segment_button {
   display: flex;
   justify-content: flex-end;
 }
 
-.ticket-search__submit-button {
+.ticket-search-form__submit-button {
   width: 325px;
   height: 60px;
 

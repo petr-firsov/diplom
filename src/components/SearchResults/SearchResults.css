@@ -1,0 +1,39 @@
+.search-result {
+    display: flex;
+    justify-content: space-between;
+}
+
+.ticket-parameters-menu {
+    width: 360px;
+    height: 1012px;
+    background-color: #3E3C41;
+}
+
+.ticket-parameters-menu h2 {
+    color: white;
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.ticket-parameters-menu h3 {
+    color: white;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.ticket-parameters-menu__item {
+    padding: 0 34px;
+    border-bottom: 1px solid #E5E5E5;
+}
+
+.ticket-parameters-menu__item input[type="date"] {
+    width: 295px;
+    height: 43px;
+}
+
+.services-switches {
+    list-style-type: none;
+    font-size: 18px;
+    font-weight: 400;
+    color: white;
+}
